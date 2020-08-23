@@ -463,3 +463,152 @@ footer>* {
   color: #aaa;
   text-align: center;
 }
+
+
+/*Responsiveness*/
+@media (max-width: 1587px) {
+  .logo {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1192px) {
+  body .wrapper {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 1011px) {
+
+  .latest-news .wrapper,
+  .latest-deals .wrapper,
+  .latest-funding .wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .latest-category {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .last-co {
+    display: none;
+  }
+
+  .title-wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .main .title {
+    font-size: 40px;
+  }
+
+  .runner-up .title {
+    font-size: 20px;
+  }
+
+  .runner-up {
+    padding-top: 60px;
+  }
+
+  .hero .info {
+    font-size: 12px;
+  }
+
+  .logo,
+  time {
+    display: none;
+  }
+}
+
+@media (max-width: 755px) {
+  body .wrapper {
+    padding: 0;
+  }
+
+  .business,
+  .news-categories {
+    display: none;
+  }
+
+  .news {
+    justify-content: end;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  .bar {
+    display: block;
+  }
+
+  .hero,
+  .latest-news .wrapper,
+  .latest-deals .wrapper,
+  .latest-funding .wrapper,
+  .latest-category {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding-top: 88px;
+    grid-template-rows: 1fr 2fr;
+  }
+
+  .main {
+    background: url("../images/tnw.png") no-repeat, linear-gradient(black, white, black);
+    background-size: cover;
+  }
+
+  .main .title {
+    font-size: 20px;
+  }
+
+  .runner-up .info-container {
+    position: absolute;
+    bottom: 20px;
+  }
+
+  .latest-news .wrapper,
+  .latest-deals .wrapper {
+    justify-items: stretch;
+  }
+
+  .latest-news .thumbnail,
+  .latest-deals .thumbnail {
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .deal {
+    height: auto;
+    width: auto;
+  }
+
+  .latest-funding .company {
+    width: inherit;
+    margin: 10px;
+  }
+
+  .options {
+    flex-direction: column;
+  }
+
+  .options li:nth-of-type(2) {
+    display: none;
+  }
+
+  .options li:nth-of-type(4) {
+    display: none;
+  }
+
+
+  .category,
+  .category .info-container {
+    width: inherit;
+  }
+
+}
