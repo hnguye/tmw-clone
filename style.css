@@ -68,13 +68,13 @@ body .wrapper {
 /* Business */
 
 .business {
-  height: 32px;
+  align-items: center;
   background: #131313;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
   font-size: 13px;
+  height: 32px;
+  justify-content: space-between;
+  padding: 0 20px;
 }
 
 .products,
@@ -89,4 +89,52 @@ body .wrapper {
 
 .b-link:hover {
   color: #fff;
+}
+
+/* News */
+
+.news {
+  height: 48px;
+  background: white;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.news-categories {
+  display: flex;
+  gap: 10px;
+}
+
+.n-link {
+  text-transform: uppercase;
+  font-family: 'Ropa Sans', sans-serif;
+  color: #aaaaaa;
+  padding: 0 10px;
+}
+
+.n-link:hover {
+  color: black;
+}
+
+.right-news {
+  display: flex;
+}
+
+.search,
+.bar {
+  height: 48px;
+  width: 48px;
+  padding: 16px 16px;
+  border-left: 1px solid #eee;
+}
+
+.bar {
+  text-align: center;
+  line-height: .6;
+  font-size: 30px;
+  color: #FF4422;
+  display: none;
 }
