@@ -255,3 +255,211 @@ time {
 .desc .author:hover {
   color: black;
 }
+
+/* LATEST CATEGORY */
+
+.latest-category {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 20px;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.category {
+  width: 368px;
+  height: 661.3px;
+}
+
+.category .section-header {
+  padding-bottom: 15px;
+}
+
+.category .info-container {
+  width: 368px;
+  height: 276px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+  background: url("../images/tnw.png") 0 no-repeat, linear-gradient(black, white, black);
+  background-size: contain;
+  color: white;
+}
+
+.category .info-container .title {
+  font-size: 20px;
+}
+
+.category-late {
+  height: 96px;
+  padding: 0 0 10px 10px;
+  background: #fff4f2;
+  line-height: 1.3;
+  color: #FF4422;
+}
+
+.category-late .thumbnail {
+  width: 96px;
+  height: 96px;
+  float: right;
+  background: lightgrey;
+}
+
+.category-late .title a:hover {
+  text-decoration: #ffcdc2 underline;
+}
+
+.category-late .article-tag {
+  padding-top: 10px;
+}
+
+.category-articles {
+  word-wrap: break-word;
+  color: #555;
+  line-height: 1.5;
+}
+
+.category-article:hover {
+  color: black;
+}
+
+.category-article:before {
+  content: "\2022    ";
+  color: #FF4422;
+}
+
+.category-article {
+  border-bottom: 1px solid #eeeeee;
+  padding: 10px 0;
+}
+
+/* LATEST DEALS */
+
+.latest-deals .wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  gap: 5px;
+  padding: 5px 0;
+}
+
+.deal {
+  width: 294px;
+  height: 319px;
+}
+
+.deal-desc .title {
+  font-size: 17px;
+}
+
+.more-deals {
+  color: #FF4422;
+}
+
+.more-deals:hover {
+  color: black;
+}
+
+.prev-price {
+  text-decoration: line-through;
+  vertical-align: text-bottom;
+  color: #aaa;
+  font-size: 13px;
+}
+
+.deal-desc span {
+  color: black;
+  font-size: 15px;
+}
+
+.deal-desc .thumbnail {
+  width: 270px;
+  height: 201px;
+  background: linear-gradient(black, white, black);
+}
+
+/* FOOTER */
+
+footer>* {
+  box-sizing: content-box;
+}
+
+/* Communication */
+
+.communication {
+  height: 90.5px;
+  padding: 42px 0 28px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  color: #aaa;
+  background: #131313;
+}
+
+.communication .contact {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.communication .contact li:hover {
+  color: white;
+}
+
+.communication .social {
+  display: flex;
+  gap: 10px;
+}
+
+.communication .social li {
+  width: 40px;
+  height: 40px;
+  background: #333333;
+  border-radius: 100%;
+  border: 2px solid #333333;
+}
+
+.communication .social li:hover {
+  background: black;
+}
+
+.fb .forum {
+  background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783") -272px -272px;
+}
+
+.tw .forum {
+  background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783") -1024px -1024px;
+}
+
+.yt .forum {
+  background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783") -1280px -1280px;
+}
+
+.insta .forum {
+  background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783") -416px -416px;
+}
+
+.pt .forum {
+  background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783") -672px -672px;
+}
+
+.rss .forum {
+  background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783") -816px -816px;
+}
+
+.mail .forum {
+  background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783") -576px -576px;
+}
+
+/* Copyright */
+
+.copyright {
+  height: 19.5px;
+  padding: 39px 0;
+  background: black;
+  color: #aaa;
+  text-align: center;
+}
