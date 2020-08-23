@@ -164,3 +164,29 @@ body .wrapper {
 .info {
   color: hsla(0, 0%, 100%, .6)
 }
+
+/* Top left article */
+
+.main {
+  background: url("../images/cover-gradient.png") no-repeat, linear-gradient(to bottom right, transparent, black);
+  background-size: cover;
+  position: relative;
+}
+
+.logo,
+time,
+.main .info-container {
+  position: absolute;
+}
+
+.logo {
+  width: 33.33333%;
+}
+
+time {
+  right: 20px;
+}
+
+.main .title {
+  font-size: 55px;
+}
