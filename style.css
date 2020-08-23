@@ -138,3 +138,29 @@ body .wrapper {
   color: #FF4422;
   display: none;
 }
+
+/* HERO */
+
+.hero {
+  height: 58.59vh;
+  /* 547.8px; */
+  padding: 4px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 4px;
+  color: white;
+}
+
+.main,
+.runner-up {
+  padding: 20px;
+}
+
+.main .info-container {
+  position: absolute;
+  bottom: 10px;
+}
+
+.info {
+  color: hsla(0, 0%, 100%, .6)
+}
