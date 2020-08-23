@@ -1,0 +1,67 @@
+/* Overall style */
+
+html,
+body {
+  background: #f0f0f0;
+  width: calc(100vw - 12px);
+  height: 100vh;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+}
+
+strong {
+  font-weight: bolder;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.clock,
+.share,
+.tag span,
+.case span,
+.forum {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  margin: 10px;
+}
+
+.clock {
+  background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783") -128px -128px;
+}
+
+.share {
+  background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783") -880px -880px;
+}
+
+.article-tag {
+  text-transform: uppercase;
+}
+
+.section-header {
+  font-size: 30px;
+  font-weight: bold;
+  color: #FF4422;
+}
+
+.section-header:hover {
+  color: black;
+}
+
+body .wrapper {
+  width: 1192px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/*Nav bar section*/
