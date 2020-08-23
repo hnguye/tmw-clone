@@ -190,3 +190,24 @@ time {
 .main .title {
   font-size: 55px;
 }
+
+/* Top right article */
+
+/* Side articles */
+
+.runners-up {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.runner-up {
+  height: 50%;
+  background: url("../images/tnw.png") 0 0 no-repeat, linear-gradient(black, white, black);
+  background-size: contain;
+  position: relative;
+}
+
+.runner-up .title {
+  font-size: 25px;
+}
